@@ -1,3 +1,6 @@
+# Databases
+A mock database for ReadMore Community Library (RCL), keeping track of its branches' activities across Local Government Agencies. Created with Frank Zheng.
+
 # Conceptual Design Assumptions
 1. Borrowers can
 register immediately without borrowing
