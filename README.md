@@ -1,5 +1,11 @@
 # Databases
-Documents: Conceptual model diagram, logical model diagram (Oracle Data Modeler), PDF of full normalisation
+Documents:
+1. Conceptual model diagram
+2. Logical model diagram (Oracle Data Modeler)
+3. Schema file of CREATE TABLE statements (Oracle Data Modeler)
+4. PDF of full normalisation of 2 ReadMore
+Community Library (RCL) documents showing UNF, 1NF, 2NF and 3NF
+5. Output from the Oracle spool command showing the tables have been created (Oracle Data Modeler)
 
 # Conceptual Design Assumptions
 1. Borrowers can
