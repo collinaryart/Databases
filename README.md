@@ -1,5 +1,5 @@
 # Databases
-A mock database for ReadMore Community Library (RCL), keeping track of its branches' activities across Local Government Agencies. Created with Frank Zheng.
+Documents: Conceptual model diagram, logical model diagram (Oracle Data Modeler), PDF of full normalisation
 
 # Conceptual Design Assumptions
 1. Borrowers can
