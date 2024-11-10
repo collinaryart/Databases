@@ -1,7 +1,3 @@
-# Databases
-
-
-
 # Conceptual Design Assumptions
 1. Borrowers can
 register immediately without borrowing
