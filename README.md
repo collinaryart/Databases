@@ -49,3 +49,6 @@ operations and improve scalability.
 Independence of Fines and Loans: While there is a correlation between Fines (FINE) and Loans
 (LOAN), they are of different business logic. Adding fine_id as a proxy key for the FINE entity ensures that each fine record has a separate, unique identifier that does not conflict with the
 loan_id in the LOAN entity.
+
+# Acknowledgements
+Developed with Frank Zheng.
