@@ -31,12 +31,12 @@ tables.
 - improves performance when indexing the table.
 - ensures each loan transaction can be uniquely identified by a simple key rather than multiple
 attributes.
+
 Expected large data volume in LOAN entity: The LOAN entity is likely to hold a significant amount
 of data (many records), so using a simple surrogate key like loan_id can help streamline database
 operations and improve scalability.
 
 # Why add fine_id as a proxy key (SK)?
 Independence of Fines and Loans: While there is a correlation between Fines (FINE) and Loans
-(LOAN), they are different business logic. By adding fine_id as a proxy key for the FINE entity, you
-can ensure that each fine record has a separate, unique identifier that does not conflict with the
-loan_id in the LOAN entity
+(LOAN), they are of different business logic. Adding fine_id as a proxy key for the FINE entity ensures that each fine record has a separate, unique identifier that does not conflict with the
+loan_id in the LOAN entity.
